@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>select</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./css/bootstrap.min.css" />
+		<link rel="stylesheet" href="./css/nav.css" />
+		<link rel="stylesheet" href="./css/select.css" />
+	</head>
+	<style></style>
+
+	<body>
+		<div class="nav">
+			<div class="link">
+				<ul>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Gift Wraps</a></li>
+					<li><input type="text" placeholder="Search"></li>
+				</ul>
+			</div>
+
+			<div class="link2">
+				<ul>
+					<li><a href="#">Shopping Cart</a></li>
+					<li><a href="#">Log in</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="main">
+			<div class="row container-fluid ps-5">
+				<div class="col-3 pt-5">
+					<h4 class="text-center">
+						Step 1: Customize the color <br />
+						of your wrap
+					</h4>
+					<div class="px-5 pt-5 pb-3 ipad-ranges">
+						<p>R</p>
+						<input
+							type="range"
+							class="range-color"
+							id="redSlider"
+							min="0"
+							max="255"
+							step="1"
+						/>
+						<p>G</p>
+						<input
+							type="range"
+							class="range-color"
+							id="greenSlider"
+							min="0"
+							max="255"
+							step="1"
+						/>
+						<p>B</p>
+						<input
+							type="range"
+							class="range-color"
+							id="blueSlider"
+							min="0"
+							max="255"
+							step="1"
+						/>
+					</div>
+					<div class="px-3 pt-5 mt-3 ipad-step2">
+						<h4 class="ipad-title">Step 2: Select a pattern for your wrap</h4>
+						<div class="container text-center">
+							<div class="row row-img">
+								<div class="col bg-white col-img px-0">
+									<img
+										class="w-100 h-100"
+										src="./新加素材/图案/pattern1.png"
+										alt=""
+									/>
+								</div>
+								<div class="col bg-white col-img px-0">
+									<img
+										class="w-100 h-100"
+										src="./新加素材/图案/pattern2.png"
+										alt=""
+									/>
+								</div>
+								<div class="col bg-white col-img px-0">
+									<img
+										class="w-100 h-100"
+										src="./新加素材/图案/pattern3.png"
+										alt=""
+									/>
+								</div>
+								<div class="col bg-white col-img px-0">
+									<img
+										class="w-100 h-100"
+										src="./新加素材/图案/pattern4.png"
+										alt=""
+									/>
+								</div>
+								<div class="col bg-white col-img px-0">
+									<img
+										class="w-100 h-100"
+										src="./新加素材/图案/pattern5.png"
+										alt=""
+									/>
+								</div>
+								<div class="col bg-white col-img px-0">
+									<img
+										class="w-100 h-100"
+										src="./新加素材/图案/pattern6.png"
+										alt=""
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-3 pt-5">
+					<h4 class="text-center">Step 3: Bedeck your wrap</h4>
+					<div class = "mt-5">
+						<p>Ribbon</p>
+						<div class="ribbons">
+							<img class="w-100" src="./新加素材/丝带/ribbon1.png" alt="" />
+							<img class="w-100" src="./新加素材/丝带/ribbon2.png" alt="" />
+							<img class="w-100" src="./新加素材/丝带/ribbon3.png" alt="" />
+						</div>
+						<p class="pt-5 mt-5">Decoration(random color)</p>
+						<div class="dec d-flex justify-content-between">
+							<div class="">
+								<img class="w-100" src="./新加素材/装饰/waxseal.png" alt="" />
+							</div>
+							<div>
+								<img
+									class="w-100"
+									src="./新加素材/装饰/driedflower.png"
+									alt=""
+								/>
+							</div>
+						</div>
+						<a href="detail.html">
+						<button class="btn btn-dark w-100 fs-4 mt-4 cus-btn">
+							Go Back
+						</button></a>
+					</div>
+				</div>
+				<div class="col-6">
+					<div class="gift">
+						<div class="gift-cap">
+							<img class="w-100" src="./新加素材/礼品/product3.png" alt="" />
+						</div>
+						<div class="gift-bg" id="giftBg">
+							<img class="w-100" src="./新加素材/图案/pattern3.png" alt="" />
+						</div>
+						<a href="confirmation.html"
+						>
+							<button class="btn btn-dark fs-4 mt-4 cus-btn gift-btn">
+								Add to Cart
+							</button></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+<script src="./js/select.js"></script>

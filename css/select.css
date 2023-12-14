@@ -1,0 +1,96 @@
+.main {
+	background: linear-gradient(to right, #e4a29b, #dfcec4, #e69f97);
+	height: 100vh;
+	overflow: hidden;
+}
+
+.range-color {
+	width: 100%;
+	height: 10px;
+	background-color: white;
+	border-radius: 5px;
+}
+
+.col-img {
+	height: 200px;
+}
+
+.row-img {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 10px;
+}
+.row-img .col:hover {
+	border: 1px solid #4f94ea;
+}
+.ribbons img {
+	height: 48px;
+	margin-top: 15px;
+}
+.ribbons img:hover {
+	border: 1px solid #4f94ea;
+}
+.dec div {
+	width: 47%;
+}
+
+.gift {
+	position: relative;
+}
+.gift-cap {
+	position: absolute;
+	top: -190px;
+	z-index: 1;
+}
+.gift-bg {
+	transform: rotate(163deg);
+	position: absolute;
+	top: 99px;
+	left: 354px;
+	width: 1000px;
+	background-color: rgb(215, 228, 229);
+}
+.border-ac {
+	border: 4px solid #4f94ea;
+}
+.dec div:hover {
+	border: 1px solid #4f94ea;
+}
+.gift {
+	height: 100%;
+	text-align: center;
+}
+.gift-btn {
+	position: absolute;
+	bottom: 0px;
+	z-index: 2;
+}
+@media screen and (max-width: 1000px) {
+	
+	.col-3 {
+		width: 100%;
+	}
+	.ipad-title {
+		text-align: center;
+	}
+	.ipad-step2 {
+		padding-top: 0.5rem !important;
+		margin-top: 0 !important;
+	}
+	.ipad-ranges {
+		padding-top: 0 !important;
+	}
+	.main {
+		height: unset;
+	}
+	.gift {
+		height: 380px;
+		width: 800px;
+	}
+	.gift-bg {
+		left: 244px;
+	}
+	.gift-btn {
+		bottom: 10px;
+	}
+}

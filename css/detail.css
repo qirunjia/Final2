@@ -1,0 +1,94 @@
+.main {
+	background: linear-gradient(to right, #e4a29b, #dfcec4, #e69f97);
+	height: 100vh;
+}
+.title .left {
+	background: #fbe1d6;
+}
+.img-cart {
+	width: 40px;
+	height: 40px;
+}
+
+.price {
+	background: #fbe1d6;
+}
+.circle-green {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	background: #84d971;
+	border-radius: 50px;
+}
+.circle-green + span {
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 10px;
+}
+.text {
+	background: #fbe1d6;
+	height: 400px;
+}
+.ipad-cap img {
+	height: 568px !important;
+}
+.cus-btn {
+	margin-top: 33px !important;
+}
+#currencyData {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 12px;
+	width: 100%;
+	background-color: #fbe1d6;
+	padding-top: 10px;
+}
+
+#currencyData span {
+	margin-bottom: 10px;
+	padding: 5px 10px;
+	background-color: #f2f2f2;
+	border-radius: 5px;
+	margin-right: 10px;
+}
+#currencyData span:last-child {
+	margin-right: 0;
+}
+@media screen and (max-width: 1000px) {
+	
+	.ipad-cap {
+		width: 100%;
+		text-align: center;
+	}
+	.ipad-cap img {
+		width: 50% !important;
+		height: 80% !important;
+	}
+	.title {
+		display: block !important;
+	}
+	.title .left {
+		width: 100% !important;
+		margin-bottom: 1rem;
+	}
+	.title .right {
+		text-align: center;
+		font-size: 2rem;
+		padding-top: 0 !important;
+	}
+	.ipad-title {
+		width: 100% !important;
+		margin-left: 0 !important;
+	}
+	.text {
+		font-size: 1.5rem !important;
+		background: transparent !important;
+	}
+	.main {
+		height: unset;
+	}
+	.cus-btn {
+		margin-top: 18px !important;
+	}
+}

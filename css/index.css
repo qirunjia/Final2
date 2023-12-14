@@ -1,0 +1,301 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: white;
+  font-weight: 48px;
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  align-items: flex-end;
+
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 60px;
+  padding-bottom: 15px;
+  width: 100%;
+  height: 100px;
+  background-color: #986B47;
+}
+
+.link ul,
+.link2 ul {
+  display: flex;
+}
+
+.link ul li,
+.link2 ul li {
+
+  margin-right: 40px;
+}
+
+
+.link li input {
+  outline: none;
+  border: none;
+  width: 540px;
+  height: 20px;
+  border-radius: 4px;
+  padding-left: 10px;
+}
+
+.link li input::placeholder {
+  font-weight: 48px;
+  color: #000;
+  font-family: 'Playfair Display', serif;
+
+}
+
+.main {
+  width: 100%;
+  height: 800px;
+  margin: 0 auto;
+  background: url("img/bg.jpg") no-repeat;
+  background-size: cover;
+  background-color: pink;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 65px;
+  padding-top: 76px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+
+}
+.box, .box1, .box2, .box3, .box4{
+  border: 0.8px solid #fff;
+}
+.welcome {
+  font-size: 24px;
+  color: #fff;
+}
+
+.text {
+  width: 374px;
+  color: #fff;
+}
+
+.text h3 {
+  font-weight: 400 ;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+.text p {
+  margin-bottom: 40px;
+  font-size: 16px;
+}
+
+.text .box {
+  vertical-align: middle;
+  font-size: 20px;
+  width: 375px;
+  border-radius: 10px;
+  height: 67px;
+  line-height: 67px;
+  text-align: center;
+  background-color: #986B47;
+}
+
+.box img {
+  width: 57px;
+  height: 57px;
+  vertical-align: middle;
+}
+
+.boxes div {
+  cursor: pointer;
+  text-align: center;
+  width: 400px;
+  margin-bottom: 44px;
+  border-radius: 10px;
+  line-height: 90px;
+  height: 90px;
+  background-color: #986B47;
+  color: #fff;
+  font-size: 20px;
+  
+}
+
+footer {
+  position:relative;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  background: #986B47;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 1000px) {
+  .nav {
+    width: 100%;
+    height: 150px;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .link ul,
+  .link2 ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: medium;
+    position: relative;
+    top: 10px;
+
+  }
+
+  .link ul li,
+  .link2 ul li {
+    margin-right: 0;
+  }
+  .container {
+    max-width: 100%;
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+  }
+
+  .main {
+    max-width: 100%;
+    height: 800px;
+    background-image: url("/img/bg.jpg") no-repeat center;
+    background-size: cover;
+  }
+
+  .welcome {
+    font-size: 20px;
+    color: white;
+    position: relative;
+    top: 30px;
+  }
+
+  .text {
+    width: 374px;
+    color: white;
+  }
+
+  .text h3 {
+    font-weight: 400 !important;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .text p {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+
+  
+  .text .box {
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    height: 55px;
+    line-height: 55px;
+    width: 370px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #986B47;
+  }
+
+  .box img {
+    height: 40px;
+    vertical-align: middle;
+  }
+
+  .boxes div {
+    text-align: center;
+    width: 400px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    line-height: 70px;
+    height: 70px;
+    background-color: #986B47;
+    color: white;
+    font-size: 20px;
+
+  }
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+
+  }
+}
+
+footer {
+  background-color: #42382F;
+  color: white;
+  padding: 20px;
+  height: auto;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.footer-section {
+  flex:1;
+  margin: 0 20px;
+
+}
+.footer-section h4 {
+  border-bottom: 0.6px solid white;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  padding: 0px 100px;
+}
+
+
+
+
+
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section p{
+  font-size: 12px;
+  padding: 0px 100px;
+}
+.footer-wrapper {
+  display: flex;
+  align-items: center; 
+}
+
+.gift-express {
+  padding: 20px 20px;
+  color: #fff;
+
+}
+.hveffect:hover,
+.hveffect:focus,
+.hveffect:active {
+    transform: scale(1.2);
+}
